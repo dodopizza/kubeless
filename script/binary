@@ -27,10 +27,7 @@ rm -f ${GOPATH%%:*}/bin/function-controller
 
 echo "Build Kubeless Components binaries"
  
- # Restore 
- cd cmd/kubeless
- sudo go get
- cd ../../
+
 
 # Build binary
 go install \
